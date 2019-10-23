@@ -414,8 +414,6 @@ margin-left: 150px;
 }
 
 
-
-
 input.ButtonBox
 {
 	font-size:10px;
@@ -458,3 +456,6 @@ input.ButtonBox
 .w-all{width: 100%;}
 .h-all{height: 100%;}
 
+.c-silver{
+	color: silver;
+}

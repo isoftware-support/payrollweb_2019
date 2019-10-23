@@ -839,7 +839,7 @@ table{
 	.w-110{width: 110px;}
 	.w-115{width: 115px;}
 	.w-120{width: 120px;}
-	.w-130{width: 130px;}
+	.w-130{width: 130px !important; }
 	.w-all{width: 100%;}
 	.h-all{height: 100%;}
 	.h-20{height: 20px;}
@@ -1020,6 +1020,9 @@ p.top_label{
 .margin-l-10{
 	margin-left: 10px;
 }
+.margin-l-20{
+	margin-left: 20px;
+}
 .margin-r-10{
 	margin-right: 10px;
 }
@@ -1069,7 +1072,7 @@ p.top_label{
 	padding:0;	
 }
 
-.cutoff_filter_attd{
+.cutoff_filter_div{
 	display: none;
 	border: 1px solid #ccc;
 	height: 150px; 
@@ -1110,7 +1113,7 @@ p.top_label{
 	padding: 2px;
 }
 .pl-5 {
-	padding-left: 5px;
+	padding-left: 5px !important;
 }
 .px-5 {
 	padding-left: 5px;
@@ -1159,6 +1162,10 @@ input[type='datetime-local']{
 }
 
 /*--------------------------*/
+
+.c-Red{
+	color:red;
+}
 
 .color-pending{
 	color: #0B448C;
